@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "myMemo",
+    "slug": "myMemo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#111827"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kirasama.myMemo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kirasama.myMemo"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/kiraaziz",
+    "extra": {
+      "eas": {
+        "projectId": "3c167f2c-2514-4e5b-b3b6-0106daff935d"
+      }
+    }
+  }
+}
